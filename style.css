@@ -1,0 +1,19 @@
+html {
+    background-color: aqua;
+}
+
+body {
+    font-size: 40px;
+}
+
+.color-white {
+    color: white;
+}
+
+h2 {
+    color: greenyellow;
+}
+
+p.color-fuchsia {
+    color: fuchsia;
+}
