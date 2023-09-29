@@ -59,9 +59,42 @@ for (let i = 0; i < jsonExample.length; i++) {
     console.log(`${user.name} nem használhatja a sampont`)
   } */
 
-  if (user["zokni-count"] % 2 === 1) {
+  /* if (user["zokni-count"] % 2 === 1) {
     console.log(`sell ${user.name} a single zokni`)
   } else {
     console.log(`${user.name} sadly has exact pair of zoknis`)
+  } */
+}
+
+let countries = [
+  {
+    name: "Hungary",
+    population: 8200000,
+    area: 12000
+  },
+  {
+    name: "Germany",
+    population: 19600000,
+    area: 27000
+  },
+  {
+    name: "Luxembourg",
+    population: 5500000,
+    area: 8000
+  },
+  {
+    name: "Switzerland",
+    population: 8199999,
+    area: 250
+  }
+]
+
+for (let i = 0; i < countries.length; i++) {
+  let country = countries[i]
+
+  if (country.population > 8000000 && country.area > 7000 && country.name === "Hungary") {
+    console.log(country)
+  } else {
+    console.log(`${country.name} does not meet the requirements`)
   }
 }
